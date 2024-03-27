@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container1 img{
+    height: 270px;
+    width: 370px;
+
+}
+.container2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    width: 80px;
+    height: 39px;
+    border-radius: 8px;
+    border: none;
+}
+.log{
+    font-size: 35px;
+    color: grey;
+    text-align: center;
+}
